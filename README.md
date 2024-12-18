@@ -1,18 +1,13 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
 
 ## Folder Structure
-
-The workspace contains two folders by default, where:
-
 - `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- `resources`: the folder to holf all the images that has been used
+- `AppSnake`: Holds the main function and the JFrame.
+- `Gameplay`: All methods of the game from designing UI and how the game works.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## GAME PLAY
+> You need to get the food to earn score and avoid collision to the edge and snake's body.
+> Take note that the food has 2 category the normal and the super food were it give +3 points.
+> Super food was randomly spawn and it also randomly disappear anytime.
+> Press `SPACE` to start the game.
+> Press `Arrow Bottons` to change direction.
